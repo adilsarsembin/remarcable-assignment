@@ -13,4 +13,3 @@ urlpatterns = [
     path("", TemplateView.as_view(template_name="products/index.html")),
     path("api/", include(api_patterns)),
 ]
-    
