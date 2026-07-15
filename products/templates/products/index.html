@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+    form { display: grid; gap: 0.75rem; margin-bottom: 1.5rem; }
+    fieldset { border: 1px solid #ccc; display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; }
+    fieldset label { white-space: nowrap; }
+    li { margin-bottom: 1rem; }
+    .meta { color: #555; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Products</h1>
+
+  <form id="filters">
+    <input type="search" name="q" placeholder="Search in description...">
+    <select name="category">
+      <option value="">All categories</option>
+    </select>
+    <fieldset>
+      <legend>Tags</legend>
+      <span id="tags"></span>
+    </fieldset>
+    <span>
+      <button type="submit">Apply</button>
+      <button type="reset">Reset</button>
+    </span>
+  </form>
+
+  <p id="count"></p>
+  <ul id="results"></ul>
+
+  <script>
+    const form = document.getElementById("filters");
+
+    async function loadFilters() {
+      const [categories, tags] = await Promise.all([
+        fetch("/api/categories/").then(r => r.json()),
+        fetch("/api/tags/").then(r => r.json()),
+      ]);
+      for (const c of categories) {
+        form.elements.category.add(new Option(c.name, c.id));
+      }
+      const box = document.getElementById("tags");
+      for (const t of tags) {
+        const label = document.createElement("label");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.name = "tag";
+        checkbox.value = t.id;
+        label.append(checkbox, ` ${t.name}`);
+        box.append(label);
+      }
+    }
+
+    function renderProduct(p) {
+      const li = document.createElement("li");
+      const title = document.createElement("strong");
+      title.textContent = p.name;
+      const meta = document.createElement("div");
+      meta.className = "meta";
+      const category = p.category ? p.category.name : "Uncategorized";
+      const tags = p.tags.map(t => t.name).join(", ");
+      meta.textContent = tags ? `${category} · ${tags}` : category;
+      const description = document.createElement("div");
+      description.textContent = p.description;
+      li.append(title, meta, description);
+      return li;
+    }
+
+    async function loadProducts() {
+      const params = new URLSearchParams();
+      const q = form.elements.q.value.trim();
+      if (q) params.append("q", q);
+      if (form.elements.category.value) params.append("category", form.elements.category.value);
+      for (const checkbox of form.querySelectorAll("input[name=tag]:checked")) {
+        params.append("tag", checkbox.value);
+      }
+      const products = await fetch(`/api/products/?${params}`).then(r => r.json());
+      document.getElementById("count").textContent = `${products.length} product(s)`;
+      document.getElementById("results").replaceChildren(...products.map(renderProduct));
+    }
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      loadProducts();
+    });
+    form.addEventListener("reset", () => setTimeout(loadProducts));
+
+    loadFilters().then(loadProducts);
+  </script>
+</body>
+</html>
