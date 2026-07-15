@@ -1,0 +1,455 @@
+[
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-07-15T04:33:54.296Z",
+    "updated_at": "2026-07-15T04:33:54.296Z",
+    "name": "Smartphones"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-07-15T04:33:59.730Z",
+    "updated_at": "2026-07-15T04:33:59.730Z",
+    "name": "Cases"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-07-15T04:34:10.511Z",
+    "updated_at": "2026-07-15T04:34:10.512Z",
+    "name": "Headsets & Headphones"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-07-15T04:34:42.243Z",
+    "updated_at": "2026-07-15T04:34:42.243Z",
+    "name": "E-Books"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-07-15T04:34:49.289Z",
+    "updated_at": "2026-07-15T04:34:49.289Z",
+    "name": "Tablets"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-07-15T04:35:50.476Z",
+    "updated_at": "2026-07-15T04:35:50.476Z",
+    "name": "cashback"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-07-15T04:36:06.473Z",
+    "updated_at": "2026-07-15T04:36:06.473Z",
+    "name": "good-price"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-07-15T04:36:15.341Z",
+    "updated_at": "2026-07-15T04:36:15.341Z",
+    "name": "discount"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-07-15T04:36:29.774Z",
+    "updated_at": "2026-07-15T04:36:29.774Z",
+    "name": "bonus-for-review"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-07-15T04:36:50.349Z",
+    "updated_at": "2026-07-15T04:36:50.349Z",
+    "name": "hot-deals"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-07-15T04:37:08.748Z",
+    "updated_at": "2026-07-15T04:56:32.066Z",
+    "name": "compact"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-07-15T04:56:03.091Z",
+    "updated_at": "2026-07-15T04:57:55.508Z",
+    "name": "reviews-over-4.9"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 13,
+  "fields": {
+    "created_at": "2026-07-15T04:56:40.116Z",
+    "updated_at": "2026-07-15T04:56:40.116Z",
+    "name": "limited-edition"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 14,
+  "fields": {
+    "created_at": "2026-07-15T04:56:48.647Z",
+    "updated_at": "2026-07-15T04:56:48.647Z",
+    "name": "bestseller"
+  }
+},
+{
+  "model": "products.tag",
+  "pk": 15,
+  "fields": {
+    "created_at": "2026-07-15T04:57:41.286Z",
+    "updated_at": "2026-07-15T04:57:41.286Z",
+    "name": "fast-delivery"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-07-15T05:25:15.529Z",
+    "updated_at": "2026-07-15T05:45:23.401Z",
+    "name": "Смартфон POVA 7 PRO 12ГБ+512ГБ 6000 мАч",
+    "description": "Идеальный подарок на день рождения для детей и пожилых, незабываемый сюрприз, который даст вам контроль над будущим и комфорт в использовании!\r\nНовейший смартфон, объединяющий технологии и дизайн, реализует все ваши ожидания!\r\n\r\nЕсли товар вас не устроил, пожалуйста, сначала обратитесь в службу поддержки, не оставляйте плохой отзыв напрямую.\r\n\r\nМы реализуем продукцию напрямую с завода, гарантируем высокое качество по доступной цене!\r\n\r\nПроцессор Snapdragon 8 Gen3, разрешение 2400×1080, поддержка 5G, 48MP/72MP, аккумулятор 6000 мАч, 6.8\" полный экран, 48MP фронтальная камера, 72MP задняя камера, мощная производительность, поддержка двух SIM-карт и TF-карты.\r\n\r\nКомплектация: смартфон, зарядное устройство, чехол, защитная пленка, два руководства.",
+    "category": 5,
+    "tags": [
+      12,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-07-15T05:26:00.396Z",
+    "updated_at": "2026-07-15T05:45:05.349Z",
+    "name": "Smartphone Reno15 F 5G 8/256 Rostest (EAC), twilight blue",
+    "description": "The first ultra-wide-angle selfie camera 50 MP, battery capacity 7000 mAh, as well as fast charging SUPERVOOC 80 W.\r\n\r\nThe first ultra-wide-angle selfie camera 50 MP\r\nReno15 F 5G captures that frame in which all of life finally fits at once. Ocean expanses, neon cities, distant peaks, and endless horizons no longer remain outside the frame - they become a living background for your smile, as if the world itself moved aside to fit into one frame.\r\n\r\nWater and dust resistance according to IP69 standard\r\nMaximum durability\r\nOutstanding underwater shots\r\nThe smartphone is designed for harsh conditions: IP69 protection easily withstands dust, splashes, and full immersion in water. It feels great where others give up. It is not afraid of rain, shines underwater, and is ready to capture any moment that this world offers.\r\n\r\nColorOS 16: Intelligence & Smoothness\r\nColorOS 16 provides smooth operation and is designed so that the device remains responsive for a long time. Even after several years of use, the smartphone responds to every swipe, scroll, and touch as quickly as on the first day.\r\n\r\nAI HyperBoost 2.0\r\nResponsiveness due to intelligent scheduling\r\nSmooth and long gaming sessions. Adaptive frame rate stabilization and temperature regulation algorithms that maintain a comfortable skin temperature work together, preventing the smartphone from overheating and ensuring stable performance during long gaming sessions.\r\n\r\nNote that LLC \"DS COMMUNICATION\" provides warranty and service support for OPPO products sold in Russia and the Republic of Belarus.\r\n\r\nThe warranty and service support provided by LLC \"DS COMMUNICATION\" does not apply to products sold in the territory of the Republic of Kazakhstan and other countries.\r\nThe smartphone is not intended for sale in Kazakhstan.",
+    "category": 5,
+    "tags": [
+      10,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-07-15T05:26:35.603Z",
+    "updated_at": "2026-07-15T05:44:47.808Z",
+    "name": "игровой телефон 5G 16+1024GB 144Hz Cмартфон GT30 Pro",
+    "description": "телефон GT30 Pro — это мощный игровой смартфон нового поколения, созданный для тех, кто ценит производительность, скорость и уникальный стиль. Оснащённый современным 6.78-дюймовым AMOLED-дисплеем с частотой обновления 144 Гц и разрешением 1.5K, он обеспечивает плавную и яркую картинку даже в самых динамичных играх.\r\n\r\nВ основе смартфона лежит высокопроизводительный процессор MediaTek Dimensity9400 с поддержкой 5G, который справляется с любыми задачами — от требовательных игр до многозадачной работы. Объём оперативной памяти составляет 16 ГБ LPDDR5X с возможностью расширения до 24 ГБ за счёт виртуальной памяти, а встроенный накопитель на 1024 ГБ стандарта UFS 4.0 обеспечивает молниеносную скорость чтения и записи.\r\n\r\nBobarry GT30 Pro получил продвинутую систему охлаждения с шестью слоями теплопроводящих материалов и функцией Bypass Charging 2.0, что предотвращает перегрев во время долгих игровых сессий. Ёмкий аккумулятор на 8000 мАч поддерживает быструю зарядку 45 Вт и беспроводную 30 Вт, позволяя оставаться на связи и в игре целый день. Основная камера на 50 МП с оптической стабилизацией снимает чёткие и насыщенные фотографии, а фронтальная камера на 32 МП подойдёт как для селфи, так и для видеосвязи. Смартфон поддерживает съёмку видео в разрешении 4K 60 кадров в секунду. Отдельного внимания заслуживает игровой дизайн корпуса триггерами для удобного управления в играх. Стереодинамики, разработанные совместно, обеспечивают громкий и качественный звук. Смартфон, Bluetooth 5.4, сканер отпечатков в экране и имеет защиту IP64 от пыли и брызг. Это отличный выбор для активных пользователей и геймеров.",
+    "category": 5,
+    "tags": [
+      10,
+      12,
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-07-15T05:27:06.842Z",
+    "updated_at": "2026-07-15T05:44:31.812Z",
+    "name": "Spark 40 Pro Smartphone 128Gb 8Gb titanium",
+    "description": "The TECNO Spark 40 Pro smartphone is a stylish and functional gadget that will become your reliable companion in everyday life. The Spark 40 Pro model, designed in an elegant titanium color, features a bright 6.78-inch AMOLED screen with a resolution of 2720x1224, providing a clear and rich image. A high refresh rate of 144 Hz guarantees smooth scrolling and comfortable video viewing. A powerful octa-core MediaTek Helio G100 Ultimate processor with a clock speed of 2200 MHz ensures the fast operation of all applications and games. The smartphone is equipped with 8 GB of RAM and 128 GB of internal memory, allowing you to store all necessary files, applications, and photos. The 50 MP main camera with dual flash will allow you to capture bright moments of life in high quality, and the 13 MP front camera is ideal for selfies and video calls. The built-in 5160 mAh battery will provide up to 722.9 hours of standby time, up to 40 hours of talk time, and up to 10 hours of video playback. The smartphone supports fast charging, which will allow you to quickly restore the device's functionality. The TECNO Spark 40 Pro runs on the Android 15 operating system, guaranteeing access to a wide range of applications and services. The phone is equipped with all the necessary interfaces: Bluetooth 5.4, Wi-Fi, VoLTE, USB Type-C, and Jack 3.5. The IP64 protection rating will protect the device from dust and splashes. With the Tecno Spark 40 Pro, you will always be connected and can enjoy all the capabilities of a modern smartphone.",
+    "category": 5,
+    "tags": [
+      8,
+      9,
+      14,
+      15
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-07-15T05:27:25.853Z",
+    "updated_at": "2026-07-15T05:44:18.359Z",
+    "name": "Protected smartphone 16 GB + 512 GB expeditions-27",
+    "description": "S18 Pro Max smartphone — Your reliable companion in the harshest conditions!\r\nIntroducing a unique triplex smartphone designed for operation in extreme environments — from wild Alpine hikes to field combat situations. Its robust construction provides maximum protection against dust, water, and mechanical damage: don't fear drops onto rocks, getting dirty, or contact with water — S18 Pro Max remains functional in any unexpected situation.\r\nPerfect for key scenarios:\r\nMountaineering and hiking: Accompanies you in mountains, jungles, and deserts — resistant to temperature fluctuations, moisture, and impact.\r\nField and combat conditions: Reliable communication in dusty, smoky, or vibrating conditions — crucial for quick communication and data transmission.\r\nTop-level technical specifications:\r\nScreen diagonal: 6.8 inches\r\nScreen resolution: 2460 × 1080 pixels\r\nRefresh rate: 120 Hz (smooth viewing and control)\r\nBattery: 20000 mAh (long autonomous use without recharging — ideal for long hikes or field missions)\r\nCameras: Front 32 MP (crystal clear selfies and video calls), rear 64 MP (quality photos even in low light)\r\nMemory: 16 GB RAM + 2 TB internal memory (storage of large amounts of data, documents, and media files)\r\nProcessor: Snapdragon 8 Gen 3 (high performance for complex applications and games)\r\nOperating system: Android 14 (current version with enhanced security features)\r\nS18 Pro Max combines the strength of triplex protection and top-tier technical parameters — this device is for those who are not ready to compromise on reliability and functionality in harsh conditions!",
+    "category": 5,
+    "tags": [
+      8,
+      9,
+      7
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-07-15T05:27:43.061Z",
+    "updated_at": "2026-07-15T05:44:01.383Z",
+    "name": "Smartphone SPARK 40 Pro 128+8GB Ink Black",
+    "description": "TECNO Spark 40 Pro smartphone with improved performance and support for proprietary AI. Thin, elegant, and reliable gadget resistant to drops.\r\n\r\nPowerful octa-core MediaTek Helio G100 Ultimate processor is complemented by large amounts of permanent and RAM memory for efficient and multitasking work:\r\n\r\n- Permanent memory 256 GB or 128 GB\r\n\r\n- RAM 8 GB with expandability options of 3, 5, or 8 GB\r\n\r\nAlso, TECNO Spark 40 Pro has a micro SD card slot up to 1 TB.\r\n\r\nEnergy-efficient battery capacity of 5200 mAh and fast 45W Type-C charging quickly replenishes the phone's charge.\r\n\r\nDirect AMOLED display with a diagonal of 6.78\" and ultra-sharp resolution 1.5K is protected by Gorilla Glass 7i. Refresh rate up to 144 Hz ensures excellent dynamics and smooth scrolling of content on the TECNO Spark 40 Pro display, maintaining maximum energy efficiency of the smartphone for as long as possible. Brightness up to 4500 nits allows comfortable use of the smartphone even on a sunny day. Together with stereo speakers with Dolby Atmos surround sound and the ability to connect wireless headphones via Bluetooth 5.4 or wired ones through a Mini Jack 3.5 mm.\r\n\r\nThe model is equipped with proprietary artificial intelligence TECNO AI with smart assistant Ella. She can communicate and recognize voice commands in Russian, perform various requests—from removing extra objects in photos to ordering a taxi. The TECNO Spark 40 Pro smartphone also uses TECNO AI to generate and edit texts, search for information both on the device and on the internet.\r\n\r\nThe phone body with evenly chamfered corners has high impact resistance and full protection against dust ingress, as well as accidental water splashes according to the IP64 standard. Thin body 6.69 mm and light weight 170 grams.\r\n\r\nThe product may have a minor defect. Part of the applications required for pre-installation in Russia is missing. Installation is required after purchase.",
+    "category": 5,
+    "tags": [
+      8,
+      5,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-07-15T05:28:03.402Z",
+    "updated_at": "2026-07-15T05:43:41.819Z",
+    "name": "Высокопроизводительный смартфон Gt10 Pro 16+1024 ГБ,5G, 2SIM",
+    "description": "Смартфон Gt10 Pro имеет 6.78-дюймовый AMOLED-дисплей с разрешением 3168×1440 пикселей. Процессор MediaTek Dimensity 9400 обеспечивает высочайшую производительность для игр. 16 ГБ ОЗУ и 1024 ГБ ПЗУ достаточно для любых задач. Аккумулятор 8000 мАч обеспечивает длительную автономность. Камеры 32 МП + 108 МП позволяют делать профессиональные фотографии и видео. Работает на Android 14. Доступен в серебристом и черном цветах.",
+    "category": 5,
+    "tags": [
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-07-15T05:28:22.926Z",
+    "updated_at": "2026-07-15T05:43:20.626Z",
+    "name": "Smartphone Reno15 5G 12/512 Rostest (EAC), twilight blue",
+    "description": "OPPO Reno15 5G\r\nThe first ultra-wide selfie camera 50 MP with the ability to shoot 4K video at 60 fps, a battery capacity of 6500 mAh, and fast charging SUPERVOOC 80W.\r\n\r\nDesign\r\nTwilight Blue\r\nThe deep blue color resembles a contemplative shade where night meets the last echo of blue twilight. Dark blue is associated with the silence of space - powerful, boundless, and quiet.\r\n\r\nUltra-Wide Selfie Camera 50 MP\r\nNot only selfies but everything you want to capture in one frame\r\nOcean expanses, neon cities, distant peaks, and endless horizons no longer remain outside the frame - they become a living background for your smile, as if the world itself moved aside to fit into one shot.\r\n\r\nWater and Dust Resistance IP69 Standard\r\nMaximum durability, incredible underwater shots\r\nOPPO Reno15 5G with IP69 protection gives us freedom to create content wherever and however we want. It's not afraid of rain, shoots underwater, and is ready to capture every moment that this world offers.\r\n\r\nColorOS 16: Intelligence & Smoothness\r\nColorOS 16 is designed so that the device remains responsive, ensuring smooth operation for a long time. Even after several years, each swipe, scroll, and touch feels just as it did on the first day of use.\r\n\r\nAI HyperBoost 2.0\r\nResponsiveness thanks to intelligent scheduling\r\nEnjoy smooth gameplay with high frame rates without heating up the smartphone due to synchronized adaptive frame rate stabilization and thermal regulation algorithms that maintain a comfortable skin temperature.\r\n\r\nPlease note that LLC \"DS COMMUNICATION\" provides warranty and service support for OPPO products sold in Russia and the Republic of Belarus.\r\n\r\nLLC \"DS COMMUNICATION\" warranty and service support does not apply to products sold in the territory of Kazakhstan and other countries.\r\nThe smartphone is not intended for sale in Kazakhstan.",
+    "category": 5,
+    "tags": [
+      8,
+      9,
+      10,
+      7
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-07-15T05:28:44.674Z",
+    "updated_at": "2026-07-15T05:43:00.805Z",
+    "name": "Смартфон S24 Ultra 16 ГБ, 1 ТБ",
+    "description": "Этот смартфон S24 Ultra на Андроид не оставит равнодушным ни одного пользователя. Благодаря мощному процессору и большой оперативной памяти, этот телефон готов к выполнению самых требовательных задач. Ты всегда останешься на связи с интернетом, играя в любимые игры или общаясь с друзьями. Экран это телефона порадует тебя четким изображением и яркими цветами.\r\n\r\nЭтот сотовый телефон предлагает слот для двух SIM карт для удобства использования нескольких номеров одновременно. Зарядка этого гаджета проходит быстро, чтобы ты мог оставаться на связи в любое время. Независимо от возраста, этот аппарат подойдет как для взрослых, так и для детей, благодаря быстрым возможностям работы в интернете и запуску приложений.",
+    "category": 5,
+    "tags": [
+      9,
+      10,
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-07-15T05:29:30.029Z",
+    "updated_at": "2026-07-15T05:42:44.533Z",
+    "name": "Wireless earphones A.Pods PRO 2 for iPhone and Android",
+    "description": "Wireless earphones A.Pods PRO 2 — high-quality headset with Bluetooth support for smartphones based on iPhone and Android. This in-ear model provides deep bass and clear sound, perfectly suitable for listening to music, conversations, and gaming sessions. Touch control on the earphones simplifies track switching and answering phone calls, while the built-in microphone ensures comfortable communication without interference.\r\n\r\nThe set includes a stylish case with wireless charging functionality, which protects the earphones and ensures long-lasting operation during travel or workouts. Silicone rubber rings of different sizes provide reliable and comfortable fixation in the ear, creating good sound insulation and comfort even with prolonged use. The headset housing is waterproof and allows you not to worry about rain or sweat during sports activities.\r\n\r\nThese universal earphones are suitable for men, women, teenagers, and even children due to the convenience and safety of use. They easily synchronize with different phones and computers, providing stable connection without delays and with minimal energy consumption. This is a great choice for those looking for quality and affordable accessories with Bluetooth.\r\n\r\nThe design of the model is executed in a minimalist style, the main color is white, which gives the device a presentable look. Dust and water protection, quality sound, and a convenient case make the headset an excellent gift and a reliable companion in everyday life. An undeniable advantage is the presence of a full-fledged USB-C cable block in the set for charging anywhere.\r\n\r\nSuitable for sports activities, running, and daily use due to water resistance and ease of use. Good at transmitting speech and music, making it a practical accessory for various scenarios — from phone calls to gaming streams on a computer.\r\n\r\nThis set represents a quality copy of the original version, maintaining important functional capabilities.",
+    "category": 7,
+    "tags": [
+      8,
+      9,
+      10,
+      7
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-07-15T05:29:45.749Z",
+    "updated_at": "2026-07-15T05:42:24.850Z",
+    "name": "Wireless headphones for iphone A.Pods Pro",
+    "description": "Wireless earphones with a microphone Airpods pro with a case Wireless earphones for new generation Iphone with the most modern chip allow you to get maximum high-quality sound and will let you fully immerse yourself in the tracks you are listening to. The copy of Airpods pro is compatible with all devices such as phones and tablets on the IOS and Android operating systems, computers and laptops on Mac OS and Windows, TVs supporting the Bluetooth function. Take out the wireless TWS earphones from the case, and they automatically and quickly connect to your device thanks to Bluetooth 5.0, and the beautiful informative animation will inform you about the charge level of the case and each earphone. Due to the joint work of optical sensors, the wireless earphones for Android A.Pods pro understand when you put them on, they can also recognize position: playback automatically pauses when you take them off. Convenient control will always keep you connected! You can use the earphones individually or both for up to 5 hours of operation with the possibility of recharging. Thanks to quality built-in microphones, you can receive a phone call and communicate comfortably over the phone for up to 3 hours from one charge. With the built-in GPS, you can easily find in the \"Locator\" app the last place of earphone usage, as well as find them by the sound emitted from the case. The charging case is charged through a Type-C port and can recharge your earphones 2-3 times, providing up to 25-30 hours of operation. The earphones are protected by IPX4 technology against sweat and water ingress, allowing you to use them in the rain or during intense workouts.",
+    "category": 7,
+    "tags": [
+      10,
+      13
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "created_at": "2026-07-15T05:30:03.245Z",
+    "updated_at": "2026-07-15T05:42:09.720Z",
+    "name": "Wireless noise-cancelling headphones for iPhone Android",
+    "description": "Wireless vacuum Bluetooth headphones with a microphone in a compact case with a touch display - this is a combination of quality sound, deep bass, and modern design. The model is equipped with active noise cancellation and transparency mode, thanks to which you can comfortably listen to music in any environment.\r\n\r\nTWS headset ensures stable connection, allowing you to enjoy music, movies, and games wirelessly. Control is carried out using a touch panel on the case.\r\n\r\nA battery with a capacity of 520 mAh provides up to 6 hours of operation, and charging via USB Type-C makes usage maximally convenient. Vacuum ear cushions provide comfort and reliable fixation even during active activities.\r\n\r\nCompatible with all devices on Android and iPhone operating systems. The touch case allows answering incoming calls, controlling music playback, selecting equalizer modes, changing volume level, selecting noise cancellation and transparency modes, setting a timer, turning on flashlight mode, and taking remote shots from your smartphone.\r\n\r\nTour Pro 5 - a universal solution for daily use and an excellent gift for lovers of high-quality sound. The model is made in the format of a quality replica, inspired by the design of a well-known brand.",
+    "category": 7,
+    "tags": [
+      8,
+      9,
+      10,
+      13
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "created_at": "2026-07-15T05:30:20.588Z",
+    "updated_at": "2026-07-15T05:41:51.485Z",
+    "name": "Galaxy Buds4 (RST) earphones, white",
+    "description": "TWS-earbuds Samsung Galaxy Buds4\r\nEnjoy perfectly balanced sound of Galaxy Buds4 with a wide-range 11mm speaker providing rich sound—from deep clean bass to bright and detailed high frequencies. Thanks to an extended dynamic range and high sampling rate, music comes alive in all its details. Audio codec SSC (Samsung Seamless Codec) reproduces sound at a maximum sampling rate of 96 kHz and bit depth up to 24 bits, preserving the original sound quality without loss. Advanced computer modeling technologies and global research data on ear anatomy were used in creating Galaxy Buds4. This is why the earbuds fit so snugly and comfortably in the ear. The new ergonomic design of the earbuds with an insert made of natural aluminum not only simplifies control but also attracts attention. With the updated touch control feature, you can switch tracks and adjust their volume with just one index finger, without using a smartphone. The updated case shape of Galaxy Buds4 makes it even easier to use the earbuds. And thanks to support for wireless charging, compact size, and lightweight, the device can be taken anywhere. The high-tech Active Noise Cancellation (ANC) algorithm in Galaxy Buds4 instantly analyzes the situation, adapts to the shape of your ear and the fit of the earbuds, and eliminates interference in real-time. Enjoy immersive sound wherever you are.",
+    "category": 7,
+    "tags": [
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "created_at": "2026-07-15T05:30:57.215Z",
+    "updated_at": "2026-07-15T05:41:31.855Z",
+    "name": "Электронная книга с чехлом Syne 6\" E-ink HD Pearl",
+    "description": "Электронная книга DIGMA Syne — современный ридер для комфортного чтения дома, в дороге и на отдыхе. Благодаря технологии E-Ink экран максимально приближен к бумаге, снижая нагрузку на глаза даже при длительном использовании.\r\n\r\nРегулируемая подсветка экрана позволяет настраивать не только яркость, но и цветовую температуру. Теплый свет помогает комфортно читать вечером, а холодный подходит для дневного использования. Электронная книга DIGMA обеспечивает удобное чтение в любых условиях освещения.\r\n\r\nВстроенная память 32 ГБ позволяет хранить тысячи книг, журналов и документов. Производительный процессор с частотой 1,2 ГГц под управлением Linux гарантирует быстрый запуск и плавную работу устройства. Поддержка популярных форматов электронных книг избавляет от необходимости конвертировать файлы перед загрузкой.\r\n\r\nКомпактный корпус удобно лежит в руке, а длительное время автономной работы позволяет брать ридер в поездки без постоянной подзарядки. В комплект уже входит защитный чехол для электронной книги, который поможет сохранить устройство в отличном состоянии.\r\n\r\nDIGMA Syne — это электронная книга с подсветкой, удобный ридер для чтения книг, документов и учебной литературы. Отличный подарок для школьников, студентов и всех, кто предпочитает читать на современном устройстве с экраном E-Ink и большой памятью.",
+    "category": 10,
+    "tags": [
+      5
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "created_at": "2026-07-15T05:31:13.509Z",
+    "updated_at": "2026-07-15T05:41:15.570Z",
+    "name": "Electronic book",
+    "description": "The VK503 backlit e-book reader is a practical device for home, study, and travel. WiFi support ensures fast downloads, while offline use makes it a suitable e-book reader for reading without the internet.\r\nThe e-reader opens popular file formats.\r\nIf you were looking for a pocketbook, take a look at this model: a modern electronic reader with precise brightness adjustment and stable operation. It combines the compactness of a smartphone with the ergonomics of a classic \"book.\"\r\nAn e-book reader with a case is a useful tool for daily use, designed for long sessions without eye fatigue. The TFT display clearly renders fonts and illustrations: this is a color e-book reader. The adjustable backlight does not glare and creates comfort for reading in the dark. Therefore, it does not irritate the eyes at all.\r\nIt is easy to control via the touchscreen, unlike button-based analogues.\r\nDiagonal 5”\r\n8 GB of memory is supplemented by a 32 GB microSD card — up to 40 GB in total.\r\nThe 2500 mAh battery guarantees up to two weeks of autonomy in standard mode.\r\nAndroid 5.1 operating system, includes a browser, maps, camera, gallery, Bluetooth, calculator, and other familiar applications.\r\n1 GB of RAM.\r\nFor notes, there is a stylus designed as a pen and a graphics tablet: write notes, sketches, and quotes, and draw diagrams.\r\nThere is a headphone jack — listen to the radio, audiobooks, and podcasts.\r\nWi-Fi connection allows you to update your collection of works and educational materials.\r\nThe mini-book is lightweight and fits in a backpack or a small bag; minimalism lovers simply call it a \"book.\"\r\nA sturdy case protects against scratches and impacts, fits tightly, does not bulk up the \"book,\" and maintains access to all ports.\r\nIncluded: e-book reader, case, stylus, charging cable, wired headphones, and instructions.\r\nFits comfortably in the hand, dimensions: 13.7 cm/7 cm.\r\nIf you need a convenient reader for reading on the go, this device is ready to use straight out of the box.",
+    "category": 10,
+    "tags": [
+      8,
+      15
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "created_at": "2026-07-15T05:31:31.634Z",
+    "updated_at": "2026-07-15T05:40:59.644Z",
+    "name": "Tome e-book, 6\", dark grey",
+    "description": "The DIGMA Tome e-book reader is a modern reader for comfortable reading at home, on the road, and on vacation. Thanks to E-Ink technology, the screen is as close to paper as possible, reducing eye strain even during prolonged use.\r\n\r\nThe built-in 32 GB memory allows you to store thousands of books, magazines, and documents. A high-performance 1.2 GHz processor running on Linux guarantees fast startup and smooth operation of the device. Support for popular e-book formats eliminates the need to convert files before uploading.\r\n\r\nThe compact body fits comfortably in the hand, and the long battery life allows you to take the reader on trips without constant recharging.\r\n\r\nThe DIGMA Tome is an e-book reader, a convenient reader for reading books, documents, and educational literature. An excellent gift for schoolchildren, students, and everyone who prefers to read on a modern device with an E-Ink screen and large memory.",
+    "category": 10,
+    "tags": [
+      12,
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "created_at": "2026-07-15T05:32:02.328Z",
+    "updated_at": "2026-07-15T05:40:41.341Z",
+    "name": "Case for iPhone 16, iPhone 16 magsafe",
+    "description": "Magsafe case for Apple iPhone 16 - a transparent thin cover with built-in magnetic attachment. The case for iPhone 16 with MagSafe support is compatible with all MagSafe accessories - external battery, magnetic card holder, car holder, all types of wireless chargers for iPhone. The built-in MagSafe magnetic ring allows you to use fast wireless charging. As well as securely attach a card holder with a payment card to terminals. Thanks to magnets built into the case, your Apple iPhone 16 will firmly hold on a magnetic car holder without additional devices. The back of the iPhone 16 case is made of hard and eco-friendly plastic with special matte soft touch coating - the case does not slip in hands, protected from mechanical damage, does not yellow. The presence of a frame around the camera and a small protrusion around the display perimeter minimizes camera and touchpad damage. All technological slots are provided, it is convenient to use functional buttons. Magsafe case for smartphone iPhone 16 is protected on both sides with transport film. Before use, you need to remove them. Branded packaging of the protective case for iPhone 16 will suit as a gift for friends and loved ones. Each case is checked before shipment.",
+    "category": 6,
+    "tags": [
+      9,
+      15
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "created_at": "2026-07-15T05:32:46.415Z",
+    "updated_at": "2026-07-15T05:40:26.541Z",
+    "name": "Galaxy Tab A11+ (SM-X230) 11\" WI-FI 8GB/256GB",
+    "description": "Galaxy Tab A11+\r\npowerful and stylish tablet for everyday tasks\r\nPremium design in a thin body, inspired by the flagship Galaxy S series, is presented in classic colors: gray and silver.\r\nEnhanced performance is provided by the central and graphics processors. With up to 8 GB of RAM and up to 256\r\nGB of internal storage (with support for microSD up to 2 TB), Galaxy Tab A 11+ easily handles multitasking, ensuring seamless operation.\r\nAn 11-inch screen with a 90 Hz refresh rate guarantees smoothness when watching videos, browsing social networks, and playing games. The image remains clear even in bright light.\r\nA 7040 mAh battery and fast charging at 25 W provide long-lasting autonomy and quick charge replenishment.\r\nThe front-facing 5 MP camera ensures clarity during video calls. Four speakers with Dolby Atmos create immersive sound, and\r\nthe 3.5 mm jack allows connecting wired headphones. Galaxy Tab A11+\r\na universal solution for work, study, and entertainment.",
+    "category": 11,
+    "tags": [
+      7,
+      13,
+      15
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "created_at": "2026-07-15T05:33:06.902Z",
+    "updated_at": "2026-07-15T05:40:06.850Z",
+    "name": "Android tablet with keyboard and stylus",
+    "description": "Android tablet with a gaming keyboard and stylus for the whole family! A helper in work, study, and entertainment. Suitable as a tablet for children of any age. The device is equipped with a modern Android 15 operating system, which ensures fast and smooth operation. This tablet is perfect for various tasks - from games to drawing and watching movies. One of the main features of the tablet is its stylish design. The tablet is equipped with an 8-core processor, providing high performance and fast data processing. The 16 GB RAM allows for smooth running and working with multiple applications even in a car. Storage capacity is 2 terabytes. With it, you are not limited in storing photos, videos, files, and music. In addition, the tablet supports two SIM cards, allowing you to stay connected at all times. The tablet is equipped with two cameras that allow for quality selfies and video calls. Additionally, the tablet computer has the ability to connect an external keyboard via Bluetooth, providing convenience when working with text. Included is a magnetic keyboard and cover, allowing for viewing movies and working with the device in various positions for both adults and children. Also included is a stylus, which allows for drawing pictures and development. The tablet supports 5G and Wi-Fi, ensuring fast internet access. Additionally, the laptop tablet has a Type-C port, which allows connecting various devices and charging the tablet. The battery capacity of 12500 mAh provides long-lasting use without recharging. Thanks to the IPS display, the tablet provides bright images, making movie watching, music listening, and learning more enjoyable.",
+    "category": 11,
+    "tags": [
+      8,
+      13
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "created_at": "2026-07-15T05:33:23.634Z",
+    "updated_at": "2026-07-15T05:39:47.567Z",
+    "name": "Android tablet with keyboard",
+    "description": "Discover the flagship tablet — a versatile helper for studying, working, and entertainment!\r\n\r\nA bright 11-inch display with a resolution of 3000×1440 ensures stunning detail and vivid colors — perfect for movies, lectures, and streams.\r\n\r\nPowerful hardware guarantees impeccable performance:\r\n\r\n8-core processor — for smooth interface operation;\r\n\r\n16 GB RAM — efficient multitasking without delays;\r\n\r\n2 TB SSD — huge library of games, movies, and documents;\r\n\r\nmicroSD support up to 1 TB — additional memory expansion.\r\n\r\nAndroid 15 provides access to millions of apps in Google Play, while modern communication standards — Wi-Fi 6, 4G, and 5G LTE (with SIM card support) — ensure stable internet anywhere.\r\n\r\nThe large 12,500 mAh battery lasts up to 9 hours — enough for a long gaming session or movie marathon. The set includes a stylish protective case-stand for comfortable viewing.\r\n\r\nFull 12-month warranty confirms the reliability of the device. Choose performance and comfort — choose the next-generation tablet!",
+    "category": 11,
+    "tags": [
+      8,
+      6,
+      14
+    ]
+  }
+}
+]
